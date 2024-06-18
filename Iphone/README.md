@@ -1,18 +1,40 @@
-## Getting Started
+# Desafio de POO - Modelagem e Diagramação de um Componente iPhone
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Contexto
 
-## Folder Structure
+Neste desafio, você será responsável por modelar e diagramar a representação UML do componente iPhone, abrangendo suas funcionalidades como Reprodutor Musical, Aparelho Telefônico e Navegador na Internet.
 
-The workspace contains two folders by default, where:
+### Lançamento iPhone 2007
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Você pode se basear no vídeo de lançamento do iPhone de 2007 nos minutos relevantes de 00:15 até 00:55.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Funcionalidades a Modelar
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+### Reprodutor Musical
+- **Métodos**:
+  - `tocar()`
+  - `pausar()`
+  - `selecionarMusica(String musica)`
 
-## Dependency Management
+### Aparelho Telefônico
+- **Métodos**:
+  - `ligar(String numero)`
+  - `atender()`
+  - `iniciarCorreioVoz()`
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### Navegador na Internet
+- **Métodos**:
+  - `exibirPagina(String url)`
+  - `adicionarNovaAba()`
+  - `atualizarPagina()`
+
+## Objetivo
+
+1. Criar um diagrama UML que represente as funcionalidades descritas acima.
+2. Implementar as classes e interfaces correspondentes em Java.
+
+## Diagrama UML
+
+Aqui está o diagrama UML representando as funcionalidades do iPhone:
+
+![](./src/images/uml.png)
